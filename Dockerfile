@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:latest
 MAINTAINER JGOMES <zx.gomes@gmail.com>
 
 RUN apt-get update
