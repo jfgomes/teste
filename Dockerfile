@@ -7,6 +7,7 @@ RUN apt-get update
 RUN apt-get upgrade
 RUN apt-get -y install nano
 RUN apt-get -y install php
+RUN apt-get -y install php7.2-mysql
 RUN apt-get -y install apache2
 RUN apt-get -y install curl
 
