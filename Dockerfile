@@ -1,6 +1,8 @@
 FROM ubuntu:trusty
 MAINTAINER JGOMES <zx.gomes@gmail.com>
 
+RUN apt-get update
+RUN apt-get upgrade
 RUN apt-get -y install apache2
 RUN apt-get -y install curl
 
