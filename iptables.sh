@@ -58,4 +58,4 @@ sudo iptables -t filter -A INPUT -p tcp --dport 9418 -j ACCEPT
 #iptables -t filter -A OUTPUT -p tcp --dport 143 -j ACCEPT
 
 # NTP (server time)
-#sudo iptables -t filter -A OUTPUT -p udp --dport 123 -j ACCEPT
+##sudo iptables -t filter -A OUTPUT -p udp --dport 123 -j ACCEPT
